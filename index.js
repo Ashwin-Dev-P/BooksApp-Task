@@ -7,6 +7,8 @@ app.use(express.json())
 //To serve templates
 const path = require('path');
 
+app.use(express.static('static'))
+
 app.set("views", path.join(__dirname, "views"))
 app.set("view engine", "hbs")
 

@@ -1,0 +1,59 @@
+.my-nav{
+    background-color: #5e72e4;
+}
+
+
+/* Search box icon inside search box */
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.my-icon{
+    color: aliceblue
+}
+
+.my-container{
+    padding: 1%;
+}
+
+.white-font{
+    color: white;
+}
+
+.white-background{
+    background-color: white;
+    color: #5e72e4;
+}
+
+.username{
+    color: white;
+    margin-right: 3%;
+}
+.icons-div{
+    margin-right: 0%;
+    padding-right: 0%;
+}
+
+#profile_pic{
+    border-radius: 50%;
+}
+
+#my-nav-row1{
+border-bottom: .20px solid rgba(var(--b6a, 219, 219, 219), 1);
+}
+
+#my-nav-row2{
+    margin-top: 3%;
+}
