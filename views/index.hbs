@@ -101,6 +101,33 @@
 
     </header>
     <main>
+        <div class="main-div">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Company</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Completion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each data}}
+                    <tr>
+                        <td>{{this.name}}</td>
+                        <td>{{this.company}}</td>
+                        <td>{{this.status}}</td>
+                        <td>
+                            <progress value={{this.completion}} max="100"> {{this.completion}}</progress>
+                        </td>
+                    </tr>
+                    {{/each}}
+
+
+                </tbody>
+            </table>
+
+        </div>
 
     </main>
     <footer>
